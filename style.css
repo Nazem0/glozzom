@@ -1,0 +1,30 @@
+.bg-secondary
+{
+    background-color: #212529 !important;
+}
+.bg-dark
+{
+    background-color: black !important;
+}
+.text-dark
+{
+    color: black !important;
+}
+.carousel-item, carousel-item img {
+    max-height: 60vh;
+}
+#gettingStated
+{
+    background: url('./img/lights.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#whatWeDo
+{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/media.jpg');
+    filter: drop-shadow();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
